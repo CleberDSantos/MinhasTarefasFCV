@@ -12,5 +12,7 @@ namespace MinhasTarefas.UI.Models
         }
 
         public DbSet<Categoria> Categorias { get; set; }
+
+        public DbSet<Tarefa> Tarefas { get; set; }
     }
 }
